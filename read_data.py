@@ -40,4 +40,4 @@ with open('applications.csv') as csv_file:
          email_msg = "Subject:{} \n \n{}".format(subj, msg)#ADD Subject To Email
          smtp.sendmail(SENDER_EMAIL,email,email_msg)
 
-smtp.quit()#Dont forget to Cut Connection.
+smtp.quit()#Don't forget to Cut Connection.
